@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+  /* Make the image fully responsive */
+  .carousel-inner img {
+    width: 100%;
+    
+  }
+
+
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  #section1 {
+    height: 600px;
+    background-color:grey ;
+    display:flex;
+    justify-content:space-between;
+  }
+  
+  #section2 {
+    height: 600px;
+    background-color: grey;
+    display:flex;
+    justify-content:space-between;
+  }
+
+  #section3 {
+    height: 600px;
+    background-color: grey;
+    display:flex;
+    justify-content:space-between;
+  }
+
+
+
+
+  </style>
+</head>
+<body>
+
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+    <a class="navbar-brand text-white">BLOOD BANK MANAGEMENT SYSTEM</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto"> <!-- Add ml-auto class here -->
+            <a class="nav-item nav-link text-white" href="/"><i class="bi bi-house-door"></i> Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link text-white" href="/benifits"><i class="bi bi-person-fill"></i>Benifits</a>
+            <a class="nav-item nav-link text-white" href="/patient"><i class="bi bi-person"></i> Patient</a>
+            <a class="nav-item nav-link text-white" href="/donor"><i class="bi bi-hand-heart"></i> Donor</a>
+            <a class="nav-item nav-link text-white" href="/login"><i class="bi bi-person-fill"></i> Admin</a>
+        </div>
+    </div>
+</nav>
+
+
+
+
+
+
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://cdn.pixabay.com/photo/2017/10/11/21/07/blood-2842450_640.jpg" alt="Los Angeles" width="1000" height="700">
+      <div class="carousel-caption">
+        <h3>Blood Donation</h3>
+        <p>“Blood Donation will cost you nothing, but it will save a life!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.pixabay.com/photo/2020/02/19/06/23/earth-4861456_640.jpg" alt="Chicago" width="1000" height="700">
+      <div class="carousel-caption">
+        <h3>Blood Donation</h3>
+        <p>“If you really want to lend a hand, lend an arm!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="https://cdn.pixabay.com/photo/2023/11/15/14/28/heart-8390212_640.jpg" alt="New York" width="1000" height="700">
+      <div class="carousel-caption">
+        <h3>Blood Donation</h3>
+        <p>“We make a living by what we get. We make a life by what we give</p>
+      </div>   
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+
+
+
+
+
+
+<br><br><br>
+
+<h1 class="text-center">significant benefits of blood donation:</h1>
+<br><br>
+
+<div class="row">
+
+  <div class="col-sm-4">
+    <div class="card text-white bg-danger mb-3">
+      <div class="card-body">
+        <h5 class="card-title">Health Screening: </h5>
+        <p class="card-text">When you donate blood, you receive a free health checkup. The screening includes measuring your blood pressure, pulse, and hemoglobin levels. Regular donations allow you to monitor your health and detect any underlying conditions early.</p>
+        <button><a href="#section1">more About Health Screening</a></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-4">
+    <div class="card text-white bg-dark mb-3">
+      <div class="card-body">
+        <h5 class="card-title">Saving Lives: </h5>
+        <p class="card-text">Donating blood can directly save lives. Each donation can be used to help patients undergoing surgeries, cancer treatments, trauma care, and other medical procedures. Your contribution can make a critical difference for someone in need..</p>
+        <button><a href="#section2">more About Saving Lives</a></button>
+      </div>
+    </div>
+  </div>
+
+  <div class="col-sm-4">
+    <div class="card text-white bg-danger mb-3">
+      <div class="card-body">
+        <h5 class="card-title">Community Impact: </h5>
+        <p class="card-text">Blood donation is a selfless act that strengthens the community. By giving blood, you contribute to a collective effort to support those facing medical emergencies. It fosters a sense of unity and compassion among donors and recipients alike..</p>
+        <button><a href="#section3">more About Community Impact</a></button>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+<br><br><br>
+
+
+
+
+
+<br><br>
+
+<h1 class="text-center">Health Screening</h1><br>
+
+<div class="main" id="section1">
+  
+  <h4><br><br>Health screening refers to the process of assessing an individual’s health status to detect any potential health issues or risk factors. Here are some key points about health screening:
+
+    Purpose: Health screenings aim to identify early signs of diseases, monitor existing conditions, and promote overall well-being.
+    Components: Common health screenings include measurements of blood pressure, cholesterol levels, blood glucose, body mass index (BMI), and cancer screenings (such as mammograms or colonoscopies).
+    Benefits:
+    Early Detection: Regular screenings can catch health problems in their initial stages, allowing for timely intervention.
+    Risk Assessment: Screening results help assess an individual’s risk factors and guide preventive measures.
+    Health Education: Screenings provide an opportunity for health professionals to educate individuals about healthy lifestyle choices.
+    Frequency: The frequency of screenings varies based on age, gender, family history, and individual risk factors.</h4>
+
+    <img src="https://cdn.pixabay.com/photo/2018/04/30/08/08/business-3362081_640.jpg" alt="New York" width="50%" height="600">
+ 
+</div>
+
+<br><br>
+
+<h1 class="text-center">Blood donation</h1><br>
+<div class="main" id="section2">
+  <img src="https://cdn.pixabay.com/photo/2018/01/17/04/13/blood-donation-3087392_640.jpg" alt="New York" width="50%" height="600">
+  <h4><br><br>Blood donation plays a crucial role in saving lives. Here are some key points about how it contributes to this noble cause:
+    Emergency Situations: During accidents, surgeries, or medical emergencies, patients often require blood transfusions. Donated blood provides a lifeline for those in critical conditions.
+    Chronic Illnesses: Individuals with chronic illnesses such as cancer, anemia, or blood disorders rely on regular blood transfusions to manage their health. Donors help sustain their quality of life.
+    Maternal and Neonatal Care: Pregnant women facing complications, premature births, or postpartum hemorrhage benefit from blood donations. Newborns with health issues also receive donated blood.
+    Organ Transplants: Organ transplant recipients need compatible blood for successful surgeries. Blood donors indirectly support these life-saving procedures.
+    Natural Disasters: In the aftermath of disasters like earthquakes, floods, or hurricanes, blood donations are essential for treating injuries and restoring health.
+    Community Unity: Blood donors come together to support their communities. Their selfless act fosters a sense of unity and compassion.</h4>
+   
+</div>
+
+
+<br><br>
+
+<h1 class="text-center">Unity and Compassion</h1><br>
+
+<div class="main" id="section3">
+  <h4><br><br><br><br>Unity and Compassion: Blood donation brings people together. Communities organize blood drives, and donors selflessly contribute to a shared cause. This sense of unity fosters compassion and care for one another.
+    Local Support: When you donate blood, you directly support your local community. Hospitals, emergency responders, and patients rely on this vital resource. Your contribution strengthens the fabric of your neighborhood.
+    Emergency Preparedness: A robust blood supply ensures preparedness during emergencies. Whether it’s a natural disaster, accident, or health crisis, having sufficient blood available saves lives within the community.
+    Remember, every blood donor plays a part in creating a positive impact on their community. 🩸❤️</h4>
+    <img src="https://cdn.pixabay.com/photo/2017/06/27/11/48/team-spirit-2447163_640.jpg" alt="New York" width="90%" height="600">
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
